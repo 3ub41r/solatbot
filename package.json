@@ -11,9 +11,9 @@
   "license": "ISC",
   "dependencies": {
     "deferred": "^0.7.3",
-    "jsonfile": "^2.2.2",
     "moment": "^2.10.6",
     "request": "^2.64.0",
+    "sqlite3": "^3.1.0",
     "vow-telegram-bot": "^0.1.1"
   }
 }

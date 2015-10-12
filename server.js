@@ -19,8 +19,8 @@ var _bot = require('vow-telegram-bot'),
     });
 
 var req = new Api(solat_api_url, request, defer),
-    botcommands = new Botcommands(req, bot),
-    solat = new Solat(solat_db, defer);
+    solat = new Solat(solat_db, defer),
+    botcommands = new Botcommands(req, bot, solat);
 
 
 bot.on('message', function(data) {

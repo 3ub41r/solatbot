@@ -231,5 +231,4 @@ INSERT INTO Locations (name, code, states_id) VALUES
 ('  Labuan  ', '    wlp-1   ', 14)  ,
 ('  Putrajaya   ', '    wlp-2   ', 14);
 
--- Trim fields
 UPDATE Locations SET name = trim(name), code = trim(code);

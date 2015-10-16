@@ -1,4 +1,4 @@
-var request = require('request'),
+var request = require('downcache'),
     defer = require('deferred'),
     env = (!process.env.BOT_TOKEN) ? require('./env.js') : undefined,
     Botcommands = require('./lib/bot_command.js'),
